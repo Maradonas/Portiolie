@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+*{
+  color: white;
+}
+    .body {
+      background-color: rgb(7,6,66);
+
+      margin: 0;
+ 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+    }
+
+    .cabecalho {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: center;
+      border-top: 1px solid #335677;
+      border-bottom: 1px solid #335677;
+      padding: 20px;
+   
+      width: 100%;
+      max-width: 800px;
+      margin-top: 20px; 
+    }
+
+    .cabecalho p {
+      margin: 20px 0; /* Removendo a margem superior e inferior e mantendo a lateral */
+    }
+
+    .imagens {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .Imagem {
+      text-align: center;
+
+      margin: 10px;
+    }
+
+    .Imagem h1 {
+      margin-top: 10px;
+    }
+
+    .Imagem img {
+      max-width: 300px;
+      max-height: 300px;
+    }
+
+    .rodape {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #335677;
+    background-color: #0A0E20;
+  }
+  </style>
+</head>
+<body class="body">
+  <div class="cabecalho">
+    <h1>PORTIFOLIO</h1>
+    <p>Nosso portfólio representa a essência da nossa jornada criativa, destacando trabalhos significativos em 
+      nossas vidas. Cada projeto reflete não apenas a nossa habilidade técnica, mas também nossa paixão por transformar 
+      ideias em realidade. Convido vocês a explorar essa coleção que ilustra nossa dedicação e criatividade.</p>
+  </div>
+
+  <div class="imagens">
+    <div class="Imagem">
+      <h1>Diego Maradini</h1>
+      <img src="../../assets/Eu.png" alt="Imagem 1">
+    </div>
+    <div class="Imagem">
+      <h1>Gustavo Araujo</h1>
+      <img src="../../assets/Guguinha.jpeg" alt="Imagem 1">
+    </div>
+    <div class="Imagem">
+      <h1>Bruno Barros</h1>
+      <img src="../../assets/Nerweed.jpeg" alt="Imagem 1">
+    </div>
+  </div>
+
+
+</body>
+<footer class="rodape">
+  <p>&copy; 2023 Portifolio. SENAI.</p>
+</footer>
+</html>

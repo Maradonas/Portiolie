@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFÓLIO</title>
+    <style>
+  
+    .custom-nav {
+        display: flex;
+        justify-content: center; /* Centraliza os elementos horizontalmente */
+        background-color: rgb(7, 6, 66);
+        border-bottom: 2px solid white; /* Adiciona uma linha branca na parte inferior */
+        text-align: center;
+    }
+
+    h1 a{
+        background: none;
+        color: white;
+    }
+    .container,
+    .experience,
+    .contact {
+        border: 0;
+        border-left: 15px;
+      /* Aumenta a distância entre os elementos em 40% */
+    }
+
+    </style>
+</head>
+
+<header>
+    <nav class="custom-nav">
+        <div class="container">
+            <h1><a routerLink="/portfolio">PAGINA INICIAL</a></h1>
+        </div>
+        <div class="experience">
+            <h1><a routerLink="/sobre-nos">QUEM SOMOS</a></h1>
+        </div>
+        <div class="experience">
+            <h1><a routerLink="/experiencias">EXPERIÊNCIA PROFISSIONAL </a></h1>
+        </div>
+        <div class="contact">
+            <h1><a routerLink="/contato">CONTATE NOS</a></h1>
+        </div>
+    </nav>
+ </header>
+ <router-outlet></router-outlet>
+  
+
+
+

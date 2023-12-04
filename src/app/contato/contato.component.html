@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Divs no Centro da Tela</title>
+  <style>
+    body {
+      background-color: rgb(7, 6, 66);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .info {
+      text-align: center;
+      font-size: large;
+      margin: 20px;
+      padding: 30px ;
+      border: 6px solid white;
+      color: white;
+      border-radius: 12px;
+    }
+      h3{
+        color: white;
+      }
+      .footer {
+        background-color: black;
+        color: white;
+        padding: 40px 0;
+      }
+      
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      
+      .footer-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      
+      .footer-section {
+        flex: 1 1 30%;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      .footer-section h3 {
+        font-size: 18px;
+      }
+      
+      .footer-section p {
+        font-size: 16px;
+      }
+      
+      /* Estilos para a lista de nomes */
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .footer-section ul li {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+
+  </style>
+</head>
+<body>
+  <div class="info">
+    <p>Bruno Barros</p>
+    <p>Telefone: (11) 98741-7850</p>
+  </div>
+  <div class="info">
+    <p>Diego Maradini</p>
+    <p>Telefone: (11) 96339-8308</p>
+  </div>
+  <div class="info">
+    <p>Gustavo Araujo</p>
+    <p>Telefone: (11) 98741-7850</p>
+  </div>
+</body>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Data</h3>
+        <p>3 de dezembro de 2023</p>
+      </div>
+      <div class="footer-section">
+        <h3>Portfólio</h3>
+        <p>Explore nosso trabalho</p>
+      </div>
+      <div class="footer-section">
+        <h3>Nomes</h3>
+        <ul>
+          <li>Diego Maradini</li>
+          <li>Guga Araujo</li>
+          <li>Nera o Blue</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</html>
